@@ -1,0 +1,42 @@
+{
+  "name": "peertube-plugin-pocketnet-auth",
+  "description": "PeerTube plugin for PocketNet aithorisation",
+  "version": "0.0.2",
+  "author": "zanhesl",
+  "bugs": "https://pocketnet.app",
+  "clientScripts": [
+    {
+      "script": "dist/common-client-plugin.js",
+      "scopes": [
+        "common"
+      ]
+    }
+  ],
+  "css": [
+    "assets/style.css"
+  ],
+  "devDependencies": {
+    "@purtuga/esm-webpack-plugin": "^1.1.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "engine": {
+    "peertube": ">=1.3.0"
+  },
+  "homepage": "https://github.com/zanhesl/peertube-pocketnet-auth",
+  "keywords": [
+    "peertube",
+    "plugin"
+  ],
+  "library": "./main.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "webpack --mode=production"
+  },
+  "staticDirs": {
+    "images": "public/images"
+  },
+  "translations": {
+    "fr-FR": "./languages/fr.json"
+  }
+}
