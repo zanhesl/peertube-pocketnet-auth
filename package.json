@@ -1,9 +1,10 @@
 {
   "name": "peertube-plugin-pocketnet-auth",
-  "description": "PeerTube plugin for PocketNet aithorisation",
-  "version": "0.0.2",
+  "description": "PeerTube plugin for PocketNet blockchain-based authorisation",
+  "version": "0.7.6",
   "author": "zanhesl",
   "bugs": "https://pocketnet.app",
+  "license": "Apache-2.0",
   "clientScripts": [
     {
       "script": "dist/common-client-plugin.js",
@@ -36,7 +37,11 @@
   "staticDirs": {
     "images": "public/images"
   },
-  "translations": {
-    "fr-FR": "./languages/fr.json"
+  "translations": {},
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "body-parser": "^1.19.0",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1"
   }
 }
