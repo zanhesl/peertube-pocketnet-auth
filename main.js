@@ -12,6 +12,7 @@ const MINUTES_STORED = 2;
 const MINIMUM_QUOTA = 2000000000;
 
 const DEFAULT_AUTH_ERROR_TEXT = 'Invalid Credentials';
+const NOT_ENOUGH_COINS_TEXT = 'You need at least 5 PKOIN to publish videos'
 
 const POCKETNET_PROXY_META = [
   {
@@ -116,7 +117,7 @@ async function register({
     if (!authDataValid.result)
       return res
         .status(400)
-        .send(generateError(authDataValid.error || DEFAULT_AUTH_ERROR_TEXT));
+        .send(generateError(authDataValid.error || NOT_ENOUGH_COINS_TEXT));
 
     if (reputationController.check(address))
       return result.userAuthenticated({
