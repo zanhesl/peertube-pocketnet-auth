@@ -1,7 +1,7 @@
 {
   "name": "peertube-plugin-pocketnet-auth",
   "description": "PeerTube plugin for PocketNet blockchain-based authorisation",
-  "version": "0.7.9",
+  "version": "0.7.10",
   "author": "zanhesl",
   "bugs": "https://pocketnet.app",
   "license": "Apache-2.0",

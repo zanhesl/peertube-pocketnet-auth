@@ -39,4 +39,12 @@ module.exports = [
   'PQ3hdiozrxtTf1UhuVfhUb9bcvrUzbzwRJ',
   'PCSxAFQCRZphi9W6nrV4tSQXKFfsxdxERA',
   'PGFKA1DieVsg9pQK4aBaEp5wpvaXpWtuVJ',
+  'PFbq1BkrrVsmEAevMqQ2PV6aFf7QWQP9sB',
+  'PKHoxhpnG5CGHDVnxXJwARwPxVre6Qshvn',
+  'PXgYFdVs5W831WpksVLA5hNtXa7XSqUzLB',
+  'PSBePd5Tx5KG9vxwAzbaDTfjzDbq1GUTYw',
+  'PDgbAvsrS4VGKkW5rivcJaiCp7fnBoZRgM',
+  'PQt1eggTZKCCbjVsHx6rcMcBMU2p2PNQmt',
+  'PPY1UbumjHJaoxsfL7DVTPNLM4g697zdDe',
+  'PU6LDxDqNBDipG4usCqhebgJWeA4fQR5R4',
 ];
